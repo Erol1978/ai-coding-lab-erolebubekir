@@ -1,4 +1,3 @@
-cat > GradeBook.h <<'EOF'
 #pragma once
 #include <string>
 #include <vector>
@@ -15,7 +14,3 @@ private:
     std::vector<std::string> assignments;
     std::vector<double> scores;
 };
-EOF
-
-git add GradeBook.h
-git commit -m "Add private members to GradeBook header"
