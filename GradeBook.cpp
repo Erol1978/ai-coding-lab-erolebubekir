@@ -1,4 +1,3 @@
-cat > GradeBook.cpp <<'EOF'
 #include "GradeBook.h"
 
 GradeBook::GradeBook() {
@@ -18,7 +17,3 @@ double GradeBook::getHighest() const {
 int GradeBook::numGrades() const {
     return 0;
 }
-EOF
-
-git add GradeBook.cpp
-git commit -m "Add stub implementations"
